@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import selectordeslizamiento.SelectorDeslizamiento?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.APPUsoSelectorC">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <SelectorDeslizamiento fx:id="SelectorArriba" layoutX="77.0" layoutY="70.0" onAction="#onActionselectorArrriba" />
+      <Label layoutX="118.0" layoutY="25.0" prefHeight="30.0" prefWidth="69.0" text="Selectores" textAlignment="CENTER" textFill="#f21515">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <SelectorDeslizamiento fx:id="SelectorAbajo" layoutX="78.0" layoutY="105.0" onAction="#onActionselectorAbajo" />
+      <Label fx:id="LabelMostarSeleccionado" alignment="CENTER" layoutX="78.0" layoutY="147.0" prefHeight="20.0" prefWidth="150.0" textAlignment="CENTER" textFill="#6edd73" />
+    </children>
+</AnchorPane>
